@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="TicTacToeButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="backgroundTint">?android:attr/colorButtonNormal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+</resources>
